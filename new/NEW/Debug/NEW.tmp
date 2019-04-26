@@ -1,0 +1,158 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega128"</DEVICE>
+ <WORKING_DIR>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.106\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.106\avrasm\inc\m128def.inc</FILE>
+  <FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\Debug\NEW.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>NEW.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>NEW.map</FILE>
+  <FILE>NEW.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Init><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>25</LINE></Init>
+  <save_data_start352><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>804</LINE></save_data_start352>
+  <action1><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>12</LINE></action1>
+  <DATABASE_TO_SRAM><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>956</LINE></DATABASE_TO_SRAM>
+  <Print1><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>304</LINE></Print1>
+  <send_precisematch><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>586</LINE></send_precisematch>
+  <Bigdel><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>742</LINE></Bigdel>
+  <compare_basic2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>409</LINE></compare_basic2>
+  <action2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>31</LINE></action2>
+  <DATABASE_TO_SRAM4><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>970</LINE></DATABASE_TO_SRAM4>
+  <send_regmodel><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>541</LINE></send_regmodel>
+  <DEL15ms><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>763</LINE></DEL15ms>
+  <get_input><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>43</LINE></get_input>
+  <ready2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>381</LINE></ready2>
+  <waitforbuttonpress2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>843</LINE></waitforbuttonpress2>
+  <convert_to_position><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>117</LINE></convert_to_position>
+  <binary_to_decimal><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>261</LINE></binary_to_decimal>
+  <send_search2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>81</LINE></send_search2>
+  <search2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>162</LINE></search2>
+  <Mess1Out><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>604</LINE></Mess1Out>
+  <repeat><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>92</LINE></repeat>
+  <UART_send_byte><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>216</LINE></UART_send_byte>
+  <UART_delay><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>275</LINE></UART_delay>
+  <norrepeat><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>101</LINE></norrepeat>
+  <action3><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>160</LINE></action3>
+  <clrdis><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>671</LINE></clrdis>
+  <send_search><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>594</LINE></send_search>
+  <comparepeople><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>194</LINE></comparepeople>
+  <send_This_is_ID><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>248</LINE></send_This_is_ID>
+  <Password><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>236</LINE></Password>
+  <finalaction3><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>185</LINE></finalaction3>
+  <SayTomas><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>206</LINE></SayTomas>
+  <SayNelson><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>216</LINE></SayNelson>
+  <Tomas><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>186</LINE></Tomas>
+  <Mess1More22><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>697</LINE></Mess1More22>
+  <Nelson><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>189</LINE></Nelson>
+  <This_is_ID><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>246</LINE></This_is_ID>
+  <greaterthan10><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>278</LINE></greaterthan10>
+  <seconddigit><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>268</LINE></seconddigit>
+  <del49ms><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>788</LINE></del49ms>
+  <action4><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>287</LINE></action4>
+  <send_Store4><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>549</LINE></send_Store4>
+  <send_genimg><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>518</LINE></send_genimg>
+  <send_img2tBuff1><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>525</LINE></send_img2tBuff1>
+  <send_img2tBuff2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>533</LINE></send_img2tBuff2>
+  <action5><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>329</LINE></action5>
+  <send_DeleteChar><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>509</LINE></send_DeleteChar>
+  <action6><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\action4include.asm</FILE><LINE>339</LINE></action6>
+  <send_TempleteNum><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>501</LINE></send_TempleteNum>
+  <DELAY_VALUE><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>54</LINE></DELAY_VALUE>
+  <eraser><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>59</LINE></eraser>
+  <loop><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>62</LINE></loop>
+  <main><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>314</LINE></main>
+  <ReadSysPara><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>129</LINE></ReadSysPara>
+  <TempleteNum><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>133</LINE></TempleteNum>
+  <DeleteChar><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>136</LINE></DeleteChar>
+  <genimg><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>141</LINE></genimg>
+  <img2tBuff1><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>144</LINE></img2tBuff1>
+  <img2tBuff2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>147</LINE></img2tBuff2>
+  <regmodel><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>150</LINE></regmodel>
+  <Store4><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>153</LINE></Store4>
+  <PreciseMatch><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>156</LINE></PreciseMatch>
+  <Search><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>159</LINE></Search>
+  <compare_database><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>170</LINE></compare_database>
+  <compare_database2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>174</LINE></compare_database2>
+  <Match><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>179</LINE></Match>
+  <Different><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>183</LINE></Different>
+  <George><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>192</LINE></George>
+  <Welcome><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>195</LINE></Welcome>
+  <Welcomemessage1><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>198</LINE></Welcomemessage1>
+  <Welcomemessage2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>201</LINE></Welcomemessage2>
+  <ready><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>204</LINE></ready>
+  <ID_recognised><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>208</LINE></ID_recognised>
+  <uart_send_next_bit><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>222</LINE></uart_send_next_bit>
+  <uart_send_1><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>227</LINE></uart_send_1>
+  <uart_wait><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>231</LINE></uart_wait>
+  <UART_get_byte><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>245</LINE></UART_get_byte>
+  <uart_wait_for_start><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>248</LINE></uart_wait_for_start>
+  <uart_get_bit><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>255</LINE></uart_get_bit>
+  <uart_bit_done><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>270</LINE></uart_bit_done>
+  <UART_delay1><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>277</LINE></UART_delay1>
+  <uart_init><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>285</LINE></uart_init>
+  <Idisp><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>638</LINE></Idisp>
+  <beepon><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>1006</LINE></beepon>
+  <Welcome2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>354</LINE></Welcome2>
+  <main2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>332</LINE></main2>
+  <clear750><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>346</LINE></clear750>
+  <Welcome3><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>363</LINE></Welcome3>
+  <waitforbuttonpress><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>828</LINE></waitforbuttonpress>
+  <Welcome5><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>372</LINE></Welcome5>
+  <message_ID_recognised><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>391</LINE></message_ID_recognised>
+  <Comp1Out2Z><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>421</LINE></Comp1Out2Z>
+  <Comp1Out2Y><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>426</LINE></Comp1Out2Y>
+  <Comp1More2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>432</LINE></Comp1More2>
+  <statefalse2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>466</LINE></statefalse2>
+  <Comp1End2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>448</LINE></Comp1End2>
+  <matching><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>692</LINE></matching>
+  <megadel><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>755</LINE></megadel>
+  <bigdel2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>721</LINE></bigdel2>
+  <differently><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>710</LINE></differently>
+  <send_ReadSysPara><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>493</LINE></send_ReadSysPara>
+  <Mess1More><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>609</LINE></Mess1More>
+  <Mess1End><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>623</LINE></Mess1End>
+  <DEL4P1ms><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>772</LINE></DEL4P1ms>
+  <busylcd><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>680</LINE></busylcd>
+  <Mess1End22><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>707</LINE></Mess1End22>
+  <BigDEL3><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>747</LINE></BigDEL3>
+  <COUNT><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>767</LINE></COUNT>
+  <COUNT1><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>775</LINE></COUNT1>
+  <DEL100mus><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>780</LINE></DEL100mus>
+  <COUNT2><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>783</LINE></COUNT2>
+  <COUNT3><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>791</LINE></COUNT3>
+  <end><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>818</LINE></end>
+  <waitforbuttonpresscycle><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>832</LINE></waitforbuttonpresscycle>
+  <FirstScreen><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>874</LINE></FirstScreen>
+  <action1call><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>912</LINE></action1call>
+  <action2call><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>915</LINE></action2call>
+  <action3call><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>918</LINE></action3call>
+  <SecondScreen><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>890</LINE></SecondScreen>
+  <verification><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>937</LINE></verification>
+  <correct><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>892</LINE></correct>
+  <action4call><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>921</LINE></action4call>
+  <action5call><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>925</LINE></action5call>
+  <action6call><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>929</LINE></action6call>
+  <action7call><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>933</LINE></action7call>
+  <actions><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>910</LINE></actions>
+  <continue><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>945</LINE></continue>
+  <makingZalocation><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>959</LINE></makingZalocation>
+  <step_by_step_LOADING><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>982</LINE></step_by_step_LOADING>
+  <makingZalocation4><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>973</LINE></makingZalocation4>
+  <program_to_memory><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\new\NEW\main.asm</FILE><LINE>987</LINE></program_to_memory>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,126 @@
+;  **  ATmega128(L) Assembly Language File - IAR Assembler Syntax **
+;  **  Author  : Jordan Nash
+;  **  Company : Imperial College London
+;  **  Comment : Simple program to get started
+;
+		.ORG	0
+		;
+		;
+		; The first instruction jumps to our initialization routine
+		;
+         rjmp Init
+
+
+Init:                
+   		;
+		;  Setup the Stack Pointer to point at the end of SRAM
+		;  Put $0FFF in the 1 word SPH:SPL register pair
+		; 
+		ldi r16, $0F		; Stack Pointer Setup
+		out SPH,r16			; Stack Pointer High Byte 
+		ldi r16, $FF		; Stack Pointer Setup 
+		out SPL,r16			; Stack Pointer Low Byte 
+   		;
+		; RAMPZ Setup Code
+		; Setup the RAMPZ so we are accessing the lower 64K words of program memory
+		;
+		ldi  r16, $00		; 1 = EPLM acts on upper 64K
+		out RAMPZ, r16		; 0 = EPLM acts on lower 64K
+   		;
+		; Comparator Setup Code
+		; set the Comparator Setup Registor to Disable Input capture and the comparator
+		; 
+		ldi r16,$80			; Comparator Disabled, Input Capture Disabled 
+		out ACSR, r16		; 
+   		;
+		; Port B Setup Code
+		; Set up PORTB (the LEDs on STK300) as outputs by setting the direction register
+		; bits to $FF. Set the initial value to $00 (which turns on all the LEDs) 
+		; 
+		ldi r16, $FF		; 
+		out DDRA , r16		; Port B Direction Register
+		ldi r16, $00		; Init value 
+		out PORTA, r16		; Port B value
+
+		;ldi r16, $FF		; 
+		;out DDRB , r16		; Port B Direction Register
+		;ldi r16, $00		; Init value 
+		;out PORTB, r16		; Port B value
+
+		ldi r16, $FF		; CLock
+		out DDRC , r16		; Port B Direction Register
+		ldi r16, $00		; Init value 
+		out PORTC, r16		; Port B value
+
+
+
+		ldi r16, $00		; 
+		out DDRE , r16		; Port B Direction Register
+		ldi r16, $FF		; Init value 
+		out PORTE, r16		; Port B value
+
+
+   		;
+		; Port D Setup Code
+		; Setup PORTD (the switches on the STK300) as inputs by setting the direction register
+		; bits to $00.  Set the initial value to $FF
+		;  
+		ldi r16, $FF		; I/O: 
+		out DDRD, r16		; Port D Direction Register
+		ldi r16, $FF		; Init value 
+		out PORTD, r16		; Port D value
+		;
+		; The main part of our program
+		;
+		Ldi r16, $00
+Main:
+	
+	rcall SPI_MasterInit
+	rcall SPI_MasterTransmit 
+	push r17
+	ldi r17, $00
+	rcall delayi
+	pop r17
+	inc r16	
+	rjmp Main
+SPI_MasterInit:; Set MOSI and SCK output, SS* also as output, all others input 
+	ldi r17,(1<<DDB2)|(1<<DDB1)|(1<<DDB0)	
+	out DDRB, r17	
+	; Enable SPI, Master, set clock rate fck/16 
+	ldi r17, (1<<SPE)|(1<<MSTR)|(1<<SPR0)	
+	out SPCR, r17	 
+	ret
+
+SPI_MasterTransmit:	; Start transmission of data (held in r16) 
+	out SPDR, r16 
+	rcall Wait_Transmit
+	ret
+Wait_Transmit:	; Wait for transmission to complete 
+	sbis SPSR, SPIF
+	rjmp Wait_Transmit	
+	ret
+;halt:
+	;rjmp halt
+
+delayi:	     ;using r2
+		
+		inc r17    ;increment r21 to 255, before branching back to ouput loop		
+		ldi r20, $00               ;r21 - r17
+		rcall delayii			
+		cpi r17, $FF		
+		brne delayi		
+		ret		
+
+delayii:	; uses r20
+		ldi r22, $00       ;increment r20 to 255, before branching back to delayi
+		rcall delayiii
+		inc r20
+		cpi r20, $FF
+		brne delayii
+		ret
+
+delayiii:  ; uses r22
+		inc r22    ;increment r22 to $xx before branch to delayii
+		cpi r22, $05
+		brne delayiii
+		ret

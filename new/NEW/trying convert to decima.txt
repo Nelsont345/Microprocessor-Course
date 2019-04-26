@@ -1,0 +1,75 @@
+
+BinarytoDecimal:
+	push r22
+	ldi r22, $05
+	push r23
+	ldi r23, $32
+	push r24
+	push r25
+	mov r24, ADCDH
+	mov r25, ADCDL   ;ADCD is a 10 bit no
+	lsr ADCL
+	lsr ADCL  
+	sbrc r24, 6
+	sbr r25, 0     
+	sbrc r24, 7
+	sbr r25, 1   ;convert to a 8 bit no. for convinience, by shifting it to the right
+
+
+	rcall compare100  
+
+compare100:	
+	push r24
+	mov r24, r22   ;move value of r22 so multiplier for 50's
+	mul r24, r23	
+	dec r22
+	pop r24
+	cpi r25, r24				;compare for 250, 200 etc  		
+	brsh BinarytoDecimal   ;need to print value
+
+compare10:
+	push r24
+	ldi r23, $0A
+	mov r24, r22   ;move value of r22 so multiplier for 50's
+	mul r24, r23	
+	dec r22
+	pop r24
+	cpi r25, r24				;compare for 250, 200 etc  
+	brsh BinarytoDecimal
+
+
+
+	push r23
+	ldi r23
+
+
+	pop r23
+	pop r24
+	pop r25
+
+/*
+
+
+DisplayDecimal:			; Display voltage, scaled to 256=1volt
+	mov DispVal,ADCDH		; copy high bits for display
+	rcall DispDec		; calls routine to display decimal
+	ldi DispVal, '.'		; display decimal point
+	rcall DispChar		; calls routine to display character
+	ldi TempReg, .10		; loads decimal 10 into TempReg
+	mul ADCDL,TempReg		; ADCDHx10 result to r1:r0 
+	mov DISPval,r1		; copy high bits for display
+	rcall DispDec		; calls routine to display decimal
+	mul r0,TempReg		; r0x10 result to r1:r0 
+	mov DISPval,r1		; copy high bits for display
+	rcall DispDec		; calls routine to display decimal
+	mul r0,TempReg		; r0x10 result to r1:r0 
+	mov DISPval,r1		; copy high bits for display
+	rcall Mess1more		; calls routine to display decimal
+	ret
+*/
+
+DispDec:
+	sts $C000, DispVal
+
+DispChar:
+sts $C000
