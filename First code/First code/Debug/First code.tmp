@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega128"</DEVICE>
+ <WORKING_DIR>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\First code\First code\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.106\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\First code\First code\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.106\avrasm\inc\m128def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\First code\First code\Debug\First code.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>First code.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>First code.map</FILE>
+  <FILE>First code.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <Init><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\First code\First code\main.asm</FILE><LINE>14</LINE></Init>
+  <Main><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\First code\First code\main.asm</FILE><LINE>56</LINE></Main>
+  <loop><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\First code\First code\main.asm</FILE><LINE>63</LINE></loop>
+  <delayi><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\First code\First code\main.asm</FILE><LINE>84</LINE></delayi>
+  <delayii><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\First code\First code\main.asm</FILE><LINE>94</LINE></delayii>
+  <delayiii><FILE>\\icnas2.cc.ic.ac.uk\nmt115\Assembler code\First code\First code\main.asm</FILE><LINE>102</LINE></delayiii>
+ </LABELS>
+</ASSEMBLER_INFO>
